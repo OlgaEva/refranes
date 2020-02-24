@@ -2,18 +2,51 @@ body {
     background-image: url("https://i.ibb.co/2Sp1pBF/jennifer-chen-y-XJi-C2-Uj-IBo-unsplash.jpg");
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-position: center center;
     font-family: 'Amatic SC', sans-serif;
 }
 
-div {
+#main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+#header {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* #plus-button {
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Amatic SC', sans-serif;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+} */
+
+button {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Amatic SC', sans-serif;
+    height: 60px;
+    width: 280px;
+    box-shadow: 5px 5px;
+    padding: 12px;
+}
+
+#refran {
+    font-size: 33px;
+}
 
 /* (for background image) Full HTML link from imgBB:
 /* <a href="https://ibb.co/vhM6M8c"><img src="https://i.ibb.co/2Sp1pBF/jennifer-chen-y-XJi-C2-Uj-IBo-unsplash.jpg" alt="jennifer-chen-y-XJi-C2-Uj-IBo-unsplash" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>free image sharing</a><br /> */
