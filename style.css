@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://i.ibb.co/2Sp1pBF/jennifer-chen-y-XJi-C2-Uj-IBo-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* (for background image) Full HTML link from imgBB:
+/* <a href="https://ibb.co/vhM6M8c"><img src="https://i.ibb.co/2Sp1pBF/jennifer-chen-y-XJi-C2-Uj-IBo-unsplash.jpg" alt="jennifer-chen-y-XJi-C2-Uj-IBo-unsplash" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>free image sharing</a><br /> */
