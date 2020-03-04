@@ -19,8 +19,8 @@ function getRandom(){
         refranLi.id = "refran-li"
         refranLi.innerText = randomEl
 
-        const refranesDiv = document.getElementById("refran")
-        refranesDiv.append(refranLi)
+        const refranesUl = document.getElementById("refran-ul")
+        refranesUl.append(refranLi)
 
         const translateBtn = document.createElement("button")
         translateBtn.id = "translate-btn"
@@ -36,8 +36,8 @@ function getRandom(){
         refranLi.id = "refran-li"
         refranLi.innerText = randomEl
 
-        const refranesDiv = document.getElementById("refran")
-        refranesDiv.append(refranLi)
+        const refranesUl = document.getElementById("refran-ul")
+        refranesUl.append(refranLi)
 
         const translateBtn = document.createElement("button")
         translateBtn.id = "translate-btn"
@@ -71,8 +71,7 @@ function changeLang(){
                 engLi.id = "eng-li"
                 engLi.innerHTML = json.text[0]
                 refranLi.append(engLi)
-
                 document.getElementById("translate-btn").remove()
     }    
-  }  
+  }
 };
